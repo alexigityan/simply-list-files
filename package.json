@@ -1,6 +1,6 @@
 {
   "name": "simply-list-files",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "List all files in current folder and subfolders",
   "main": "cli.js",
   "scripts": {
