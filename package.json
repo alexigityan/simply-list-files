@@ -1,0 +1,13 @@
+{
+  "name": "simply-list-files",
+  "version": "1.0.0",
+  "description": "List all files in current folder and subfolders",
+  "main": "cli.js",
+  "scripts": {
+  },
+  "author": "Alex Igityan",
+  "license": "MIT",
+  "bin": {
+    "simply-list-files": "./cli.js"
+  }
+}
