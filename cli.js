@@ -2,6 +2,7 @@
 
 const path = require('path');
 const fs = require('fs');
+const os = require('os');
 
 const currentPath = process.cwd();
 
@@ -24,7 +25,7 @@ if (flag) {
     const ws = fs.createWriteStream(fileName);
     function logger(stream) {
       return function(text) {
-        stream.write(text + '\n');
+        stream.write(text + os.EOL);
       }
     }
     log = logger(ws);
